@@ -31,3 +31,9 @@
 
 
 7) AssigneeId: This field must be hardcoded in the UA
+
+
+8) Comments and Attachments can be synchronized as the API is supported
+
+
+8) API Documentation URL: https://desk.zoho.in/support/APIDocument.do#Introduction
