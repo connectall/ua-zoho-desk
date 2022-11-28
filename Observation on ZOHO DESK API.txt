@@ -1,0 +1,33 @@
+1) The API Request and Response Payloads are in JSON Format. ConnectALL can use JOLT Transformation to handle the payloads.
+-----> No Risk
+
+
+2) The Authentication mode is OAuth2.0 
+	# So It has API Key Authentication (i.e.) Key: Authorization Value: Zoho-oauthtoken {accessToken}
+	# But the access token expires every 1 hour
+-----> Risk
+
+
+3) Metadata:
+	i) It has project scope like Department Scope and Contact Scope.
+	ii) It has issue type scope like Ticket Scope.
+-----> Risk
+
+
+4) There are standard fields published in the documentation.
+-----> No Risk
+
+
+5) The Date Format is in ISO8601 Date Format (2022-11-25T16:28:52.000Z) yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
+-----> No Risk
+
+
+6) API Configuration:
+	i) To create a ticket, department ID and contact ID is must. 
+		# Contacts are the end customers. So the contact id must be hardcoded.
+-----> Risk
+
+	ii) To update a ticket, subject is enough.
+
+
+7) AssigneeId: This field must be hardcoded in the UA
