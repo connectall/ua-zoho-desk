@@ -1,2 +1,2 @@
-# zoho-desk_universal_adapter
+# ua-zoho-desk
  ZOHO Support Desk
